@@ -1,1 +1,2 @@
-console.log('Is it working ? I hope so');
+import { pageloader } from "./pageloader";
+
