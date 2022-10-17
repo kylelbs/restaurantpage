@@ -4,8 +4,8 @@ const navBar = document.createElement('div');
 navBar.classList.add('navbar');
 
 const navList = document.createElement('ul');
-const navListTexts = ['About','Reservations','Menus','Contact'];
-for (let i= 0; i < 4; i++){
+const navListTexts = ['About','Menu','Contact'];
+for (let i= 0; i < 3; i++){
     const liItem = document.createElement('li');
     liItem.innerText = navListTexts[i];
     navList.append(liItem);
