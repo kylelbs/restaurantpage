@@ -1,4 +1,6 @@
-const pageloader = (() => {const divContent = document.querySelector('#content');
+const pageloader = (() => {
+
+const divContent = document.querySelector('#content');
 
 const navBar = document.createElement('div');
 navBar.classList.add('navbar');
