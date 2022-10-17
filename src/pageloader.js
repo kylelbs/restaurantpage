@@ -1,20 +1,9 @@
+import { navloader } from "./navloader";
+
 const pageloader = (() => {
 
 const divContent = document.querySelector('#content');
-
-const navBar = document.createElement('div');
-navBar.classList.add('navbar');
-
-const navList = document.createElement('ul');
-const navListTexts = ['About','Menu','Contact'];
-for (let i= 0; i < 3; i++){
-    const liItem = document.createElement('li');
-    liItem.innerText = navListTexts[i];
-    navList.append(liItem);
-}
-navBar.append(navList);
-divContent.append(navBar);
-
+navloader();
 const mainTitle = document.createElement('h1');
 mainTitle.innerText = 'Welcome to the Air restaurant';
 divContent.append(mainTitle);
