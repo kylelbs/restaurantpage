@@ -1,4 +1,4 @@
-import { navloader } from "./navloader";
+import { navloader } from ".";
 
 const contact = () => {
     console.log('here');

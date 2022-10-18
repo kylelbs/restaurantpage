@@ -1,9 +1,9 @@
-import { navloader } from "./navloader";
+import { navloader } from ".";
 
 const pageloader = (() => {
 
 const divContent = document.querySelector('#content');
-navloader();
+// navloader();
 const mainTitle = document.createElement('h1');
 mainTitle.innerText = 'Welcome to the Air restaurant';
 divContent.append(mainTitle);
