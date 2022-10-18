@@ -1,9 +1,9 @@
-import { pageloader } from "./pageloader";
+import {pageloader} from "./pageloader";
 import { about } from "./about";
 import { menu } from "./menu";
 import { contact } from "./contact";
 
-const navloader = (() => {
+const navloader = () => {
     const divContent = document.querySelector('#content');
     const navBar = document.createElement('div');
     navBar.classList.add('navbar');
@@ -43,7 +43,9 @@ const navloader = (() => {
         divContent.innerHTML = '';
         contact();
     });
-})();
+};
+
+pageloader();
 
 export {navloader};
 

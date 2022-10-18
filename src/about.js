@@ -1,7 +1,6 @@
 import { navloader } from ".";
 
 const about = () => {
-    console.log('here');
     const divContent = document.querySelector('#content');
     navloader();
     const mainParagraph = document.createElement('p');
